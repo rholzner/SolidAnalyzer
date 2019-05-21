@@ -138,6 +138,15 @@
   <data name="Ocp0001Title" xml:space="preserve">
     <value>Code smell for OCP</value>
   </data>
+  <data name="Ocp0002Description" xml:space="preserve">
+    <value>This is indecation of breaking an not nullebal pattern</value>
+  </data>
+  <data name="Ocp0002MessageFormat" xml:space="preserve">
+    <value>If you avoid return null you dont have to null check later on and null excepations are avoided</value>
+  </data>
+  <data name="Ocp0002Title" xml:space="preserve">
+    <value>Avoid null code</value>
+  </data>
   <data name="Srp0001Description" xml:space="preserve">
     <value>If you are using out parameter your method probebly has to many responsibilties</value>
   </data>
@@ -173,5 +182,14 @@
   </data>
   <data name="Srp0004Title" xml:space="preserve">
     <value>If in switch case</value>
+  </data>
+  <data name="Srp0005Description" xml:space="preserve">
+    <value>Propertys shode be as simpel as possibel to not validate agiants SRP</value>
+  </data>
+  <data name="Srp0005MessageFormat" xml:space="preserve">
+    <value>Propertys shode be as simpel as possibel to not validate agiants SRP</value>
+  </data>
+  <data name="Srp0005Title" xml:space="preserve">
+    <value>Propertys shode be simpel</value>
   </data>
 </root>

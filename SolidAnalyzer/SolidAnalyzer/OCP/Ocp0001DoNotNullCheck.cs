@@ -36,7 +36,7 @@ namespace SolidAnalyzer.OCP
             var ifs = context.CodeBlock.DescendantNodes().OfType<IfStatementSyntax>();
             foreach (var ifstament in ifs)
             {
-                if (ifstament.Condition is  null)
+                if (ifstament.Condition is null)
                 {
                     continue;
                 }

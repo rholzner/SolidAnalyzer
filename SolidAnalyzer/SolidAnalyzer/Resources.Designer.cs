@@ -116,6 +116,33 @@ namespace SolidAnalyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This is indecation of breaking an not nullebal pattern.
+        /// </summary>
+        internal static string Ocp0002Description {
+            get {
+                return ResourceManager.GetString("Ocp0002Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you avoid return null you dont have to null check later on and null excepations are avoided.
+        /// </summary>
+        internal static string Ocp0002MessageFormat {
+            get {
+                return ResourceManager.GetString("Ocp0002MessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Avoid null code.
+        /// </summary>
+        internal static string Ocp0002Title {
+            get {
+                return ResourceManager.GetString("Ocp0002Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to If you are using out parameter your method probebly has to many responsibilties.
         /// </summary>
         internal static string Srp0001Description {
@@ -220,6 +247,33 @@ namespace SolidAnalyzer {
         internal static string Srp0004Title {
             get {
                 return ResourceManager.GetString("Srp0004Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Propertys shode be as simpel as possibel to not validate agiants SRP.
+        /// </summary>
+        internal static string Srp0005Description {
+            get {
+                return ResourceManager.GetString("Srp0005Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Propertys shode be as simpel as possibel to not validate agiants SRP.
+        /// </summary>
+        internal static string Srp0005MessageFormat {
+            get {
+                return ResourceManager.GetString("Srp0005MessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Propertys shode be simpel.
+        /// </summary>
+        internal static string Srp0005Title {
+            get {
+                return ResourceManager.GetString("Srp0005Title", resourceCulture);
             }
         }
     }
