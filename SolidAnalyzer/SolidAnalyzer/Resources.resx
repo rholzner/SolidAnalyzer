@@ -129,6 +129,15 @@
     <value>Type name contains lowercase letters</value>
     <comment>The title of the diagnostic.</comment>
   </data>
+  <data name="Dip0001Description" xml:space="preserve">
+    <value>Static extention methods will probebly be used in an other method and there for you will break Dependency Inversion</value>
+  </data>
+  <data name="Dip0001MessageFormat" xml:space="preserve">
+    <value>Static extention methods will probebly be used in an other method and there for you will break Dependency Inversion</value>
+  </data>
+  <data name="Dip0001Title" xml:space="preserve">
+    <value>Code smell for DIP</value>
+  </data>
   <data name="Ocp0001Description" xml:space="preserve">
     <value>Checking for null is viaualtion i OCP due to null is also an typ</value>
   </data>

@@ -89,6 +89,33 @@ namespace SolidAnalyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Static extention methods will probebly be used in an other method and there for you will break Dependency Inversion.
+        /// </summary>
+        internal static string Dip0001Description {
+            get {
+                return ResourceManager.GetString("Dip0001Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Static extention methods will probebly be used in an other method and there for you will break Dependency Inversion.
+        /// </summary>
+        internal static string Dip0001MessageFormat {
+            get {
+                return ResourceManager.GetString("Dip0001MessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code smell for DIP.
+        /// </summary>
+        internal static string Dip0001Title {
+            get {
+                return ResourceManager.GetString("Dip0001Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Checking for null is viaualtion i OCP due to null is also an typ.
         /// </summary>
         internal static string Ocp0001Description {
